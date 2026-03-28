@@ -1,0 +1,135 @@
+.events-list {
+  padding: 20px;
+}
+
+.events-list__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.events-list__clear-button {
+  border: none;
+  background: #111827;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.events-list__clear-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.events-list__items {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.events-list__item {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  background: #f9fafb;
+  padding: 16px;
+}
+
+.events-list__item--completed {
+  opacity: 0.75;
+  background: #f3f4f6;
+}
+
+.events-list__top {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 10px;
+}
+
+.events-list__title-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.events-list__title-group h3 {
+  font-size: 16px;
+}
+
+.events-list__completed-badge {
+  padding: 5px 10px;
+  border-radius: 999px;
+  background: #dcfce7;
+  color: #166534;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.events-list__description {
+  color: #4b5563;
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.events-list__footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: center;
+}
+
+.events-list__meta {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 13px;
+  color: #374151;
+}
+
+.events-list__actions {
+  display: flex;
+  gap: 10px;
+}
+
+.events-list__action-button {
+  border: none;
+  padding: 10px 14px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+}
+
+.events-list__action-button--complete {
+  background: #2563eb;
+}
+
+.events-list__action-button--remove {
+  background: #dc2626;
+}
+
+.events-list__priority {
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.events-list__priority--high {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.events-list__priority--medium {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.events-list__priority--low {
+  background: #dbeafe;
+  color: #1d4ed8;
+}

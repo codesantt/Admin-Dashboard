@@ -1,0 +1,34 @@
+.system-status {
+  padding: 20px;
+}
+
+.system-status__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.system-status__badge {
+  padding: 8px 14px;
+  border-radius: 999px;
+  font-weight: bold;
+}
+
+.system-status__badge--online {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.system-status__badge--offline {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.system-status__button {
+  border: none;
+  background: #2563eb;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 10px;
+}

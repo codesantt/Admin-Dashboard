@@ -1,0 +1,9 @@
+.user-panel {
+  padding: 20px;
+}
+
+.user-panel__content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

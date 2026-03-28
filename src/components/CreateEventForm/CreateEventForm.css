@@ -1,0 +1,48 @@
+.create-event {
+  padding: 20px;
+}
+
+.create-event__form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.create-event__form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.create-event__form input,
+.create-event__form select,
+.create-event__form textarea {
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  padding: 10px 12px;
+  background: white;
+}
+
+.create-event__form textarea {
+  resize: vertical;
+}
+
+.create-event__form button {
+  border: none;
+  background: #111827;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.create-event__form button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.field-error {
+  margin-top: 6px;
+  color: #b91c1c;
+  font-size: 13px;
+}
